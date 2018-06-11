@@ -27,7 +27,8 @@ describe "A cell" do
   describe 'after a tick' do
 
     it 'a live cell with fewer than two live neighbors dies' do
-
+      cell.tick
+      expect(cell.is_alive?).not_to be_truthy
     end
 
     xit 'a dead cell with fewer than two live neighbors stays dead' do

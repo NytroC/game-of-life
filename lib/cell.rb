@@ -20,4 +20,9 @@ class Cell
   def tick
     @ticks +=1
   end
+  def time_passing
+    tick
+    if @neighbors.size < 2
+      die
+    end
 end
