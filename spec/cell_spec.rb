@@ -21,13 +21,12 @@ describe "A cell" do
   end
 
   it 'can keep track of ticks' do
-
     expect(cell.tick).to eq(1)
   end
 
   describe 'after a tick' do
 
-    xit 'a live cell with fewer than two live neighbors dies' do
+    it 'a live cell with fewer than two live neighbors dies' do
 
     end
 
