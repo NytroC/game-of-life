@@ -11,8 +11,9 @@ describe "A cell" do
 
   end
 
-  xit 'can die' do
-
+  it 'can die' do
+    cell.die
+    expect(cell.is_alive?).not_to be_truthy
   end
 
   xit 'has neighbors, which is initially an empty array' do
