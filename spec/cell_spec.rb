@@ -7,7 +7,7 @@ describe "A cell" do
   end
 
   it 'is initially alive' do
-    expect(cell.is_alive?).to be truthy
+    expect(cell.is_alive?).to be_truthy
 
   end
 
