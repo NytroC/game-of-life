@@ -20,7 +20,7 @@ describe "A cell" do
     expect(cell.neighbors).to be_empty
   end
 
-  xit 'can keep track of ticks' do
+  it 'can keep track of ticks' do
 
     expect(cell.tick).to eq(1)
   end
