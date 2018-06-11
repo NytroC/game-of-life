@@ -20,8 +20,9 @@ describe "A cell" do
     expect(cell.neighbors).to be_empty
   end
 
-  xit 'has a tick method' do
+  xit 'can keep track of ticks' do
 
+    expect(cell.tick).to eq(1)
   end
 
   describe 'after a tick' do
